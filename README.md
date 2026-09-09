@@ -5,16 +5,23 @@ Data, analysis code and reports of the School of Thinkers / Metodo SOFT evaluati
 ## Structure
 
 ```
-Original data and metadata/          T1 data exported from the platform on 2026-08-23, one row per response
+Original files/                      T1 data exported from the platform on 2026-08-23, one row per response
   EP_alunos_saude_emocional.csv                  students  - Inventario de Saude Emocional - Aluno (n = 748)
   EP_pais_saude_emocional_familia.csv            parents   - Inventario de Saude Emocional - Familia (n = 915)
   EP_professores_pratica_pedagogica.csv          teachers  - Inventario de Pratica Pedagogica e Perfil da Turma (n = 91)
   EP_professores_qualidade_vida_saude_mental.csv teachers  - Inventario de Qualidade de Vida e Saude Mental (n = 111)
   EP_codebook.csv                                variable dictionary: column_name, label, type, scale, options, dimension
-Processing and analysis/Command files/
-  DP - EP - School of Thinkers.ipynb             data preparation (R): cleaning, recoding, dyads -> ep.rds
-  DA - School of Thinkers.ipynb                  manuscript analyses (R): EFA/CFA, reliability, regressions, child-caregiver ICC, invariance
-  DA - Professor Student.ipynb                   teacher variables predicting student self-report (R)
+Processing and analysis/
+  Command files/
+    DP - EP - School of Thinkers.ipynb           data preparation (R): cleaning, recoding, dyads -> ep.rds
+    DA - School of Thinkers.ipynb                manuscript analyses (R): EFA/CFA, reliability, regressions, child-caregiver ICC, invariance
+    DA - Professor Student.ipynb                 teacher variables predicting student self-report (R)
+  Importable data/                               output of the DP notebook; input of the DA notebooks
+    ep.rds                                       list of 4 data frames: df_st, df_par, df_t, df_dy
+    ep_st.csv                                    students (n = 741), recoded items as *_num
+    ep_par.csv                                   caregivers (n = 912)
+    ep_t.csv                                     teachers (n = 111), both inventories joined by respondent_id
+    ep_dy.csv                                    student-caregiver dyads (n = 406), suffixes _aluno / _familia
 Results/
   Relatorio Parcial 1 - Linha de base - School of Thinkers.docx   baseline partial report
   Relatorio 2 - Dados ate agosto - School of Thinkers.docx        report with data up to August 2026
@@ -26,4 +33,4 @@ Public files exclude direct identifiers present in the private originals: respon
 
 ## Paths
 
-Notebooks read `../Data/Official/<file>.csv` and write `ep.rds` in the Analysis folder; adjust the relative paths to this repository layout before running.
+DP reads `../Data/Official/<file>.csv` and writes `ep.rds`; DA notebooks read `../ep.rds`. Adjust the relative paths to this repository layout before running.
