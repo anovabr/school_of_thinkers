@@ -1,6 +1,6 @@
 # School of Thinkers (Escola de Pensadores) - Data and codes
 
-Private repository. Data, analysis code and reports of the School of Thinkers / Metodo SOFT evaluation in three municipal schools of Nova Mutum, MT, Brazil (O Semeador, Futuro Brilhante, Marton Lucca). Wave T1 (March-August 2026). Migrated from the Open Science Framework (osf.io/cxpt4 template).
+Private repository (notebooks read it with the git credential through gitcreds). Data, analysis code and reports of the School of Thinkers / Metodo SOFT evaluation in three municipal schools of Nova Mutum, MT, Brazil (O Semeador, Futuro Brilhante, Marton Lucca). Wave T1 (March-August 2026). Migrated from the Open Science Framework (osf.io/cxpt4 template).
 
 ## Structure
 
@@ -29,8 +29,11 @@ Processing and analysis/
     DP - EP - School of Thinkers.ipynb           data preparation (R): cleaning, recoding, dyads -> ep.rds
     DA - School of Thinkers.ipynb                manuscript analyses (R): EFA/CFA, reliability, regressions, child-caregiver ICC, invariance
     DA - Professor Student.ipynb                 teacher variables predicting student self-report (R)
+    DP - SOFT qualitative.ipynb                  SOFT follow-up survey (R): lemmatization (UDPipe), sentiment (LeIA), content analysis codes -> soft.RData
+    DA - SOFT qualitative.ipynb                  SOFT mixed methods analyses (R): reads soft.RData from this repository
   Importable data/
     ep.rds                                       output of DP, input of DA: list of df_st (741), df_par (912), df_t (111), df_dy (406)
+    soft.RData                                   output of DP - SOFT qualitative, input of DA - SOFT qualitative: df (494 rows, response x section), df_original (377 open answers)
 Results/
   Relatorio Parcial 1 - Linha de base - School of Thinkers.docx   baseline partial report
   Relatorio 2 - Dados ate agosto - School of Thinkers.docx        report with data up to August 2026
