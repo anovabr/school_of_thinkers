@@ -1,0 +1,54 @@
+id_resposta,teacher_id,sex,age,role,training
+1,20,Male,30,Classroom assistant,Yes
+2,30,Female,30,Educational development technician,Yes
+3,31,Female,50,Classroom teacher,Yes
+4,19,Female,27,Classroom teacher,No
+5,48,Male,36,Classroom teacher,No
+6,12,Female,56,Classroom teacher,Yes
+7,46,Female,50,Coordination or management,Yes
+8,18,Female,35,Classroom teacher,Yes
+9,41,Not estimated,35,Classroom teacher,No
+10,39,Female,39,Educational development technician,Yes
+11,42,Female,48,Classroom teacher,No
+12,43,Female,50,Classroom teacher,No
+13,29,Female,35,Educational development technician,No
+14,51,Female,58,Classroom assistant,No
+15,26,Male,47,Classroom teacher,No
+16,4,Female,51,Not informed,No
+17,38,Female,47,Classroom assistant,Yes
+18,32,Female,21,Classroom assistant,No
+19,44,Female,25,Classroom assistant,Yes
+20,47,Female,37,Classroom teacher,No
+21,16,Female,43,Classroom teacher,No
+22,13,Female,55,Classroom teacher,No
+24,8,Female,31,Not informed,Yes
+25,27,Female,39,Coordination or management,Not informed
+26,23,Female,59,Classroom teacher,No
+27,52,Male,32,Classroom teacher,No
+28,17,Female,41,Classroom teacher,Yes
+29,28,Female,30,Coordination or management,Yes
+30,7,Female,39,Classroom teacher,No
+31,37,Female,36,Classroom teacher,Yes
+32,10,Female,49,Classroom teacher,No
+33,14,Female,28,Classroom assistant,Yes
+34,6,Female,51,Classroom teacher,No
+35,34,Female,36,Classroom teacher,Yes
+36,33,Male,32,Educational development technician,No
+37,40,Male,40,Coordination or management,No
+38,22,Female,43,Classroom teacher,Yes
+39,36,Male,35,Classroom teacher,No
+40,21,Male,43,Coordination or management,No
+41,9,Male,37,Classroom teacher,No
+42,35,Female,33,Classroom teacher,Yes
+43,11,Male,34,Classroom teacher,No
+44,50,Female,50,Classroom teacher,No
+45,2,Female,47,Classroom teacher,Yes
+46,49,Female,41,Classroom teacher,No
+47,6,Female,51,Classroom teacher,Yes
+48,24,Female,45,Classroom teacher,Yes
+49,15,Female,36,Classroom teacher,No
+50,1,Female,37,Classroom teacher,No
+51,25,Male,31,Classroom teacher,No
+52,3,Female,28,Classroom teacher,No
+53,45,Female,39,Classroom teacher,Yes
+54,5,Female,20,Classroom assistant,No

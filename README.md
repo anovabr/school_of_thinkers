@@ -11,6 +11,19 @@ Original data and metadata/          T1 data exported from the platform on 2026-
   EP_professores_pratica_pedagogica.csv          teachers  - Inventario de Pratica Pedagogica e Perfil da Turma (n = 97)
   EP_professores_qualidade_vida_saude_mental.csv teachers  - Inventario de Qualidade de Vida e Saude Mental (n = 122)
   EP_codebook.csv                                variable dictionary: column_name, label, type, scale, options, dimension
+  Deidentified files (export of 2026-10-05, responses up to 2026-09-27; names, birth dates and contacts dropped; teacher_key, respondent_key, age added):
+  EP_alunos_saude_emocional_2026-10-05.csv                    students (n = 748)
+  EP_pais_saude_emocional_familia_2026-10-05.csv              parents (n = 915)
+  EP_professores_pratica_pedagogica_2026-10-05.csv            teachers, practice (n = 104)
+  EP_professores_qualidade_vida_saude_mental_2026-10-05.csv   teachers, QoL (n = 197)
+  EP_professores_acompanhamento_SOFT_2026-10-05.csv           teachers, SOFT follow-up (n = 54)
+  EP_student_roster_2026-10-05.csv                            school and class (n = 2474; roster_2026_09_27 = TRUE for the 1694 of T1)
+  SOFT qualitative study (DP - SOFT qualitative.ipynb):
+  EP_professores_acompanhamento_SOFT_2026-09-27.csv           SOFT follow-up closed and open items (n = 54)
+  SOFT_respostas_abertas_long_2026-09-27.csv                  SOFT open answers, one row per answer (n = 377)
+  SOFT_open_answers_mood_implementation_codes.csv             content analysis codes of the 304 answers about the tools
+  SOFT_lemma_translation_en.csv                               Portuguese lemma to English (481 lemmas)
+  SOFT_teacher_linkage.csv                                    deidentified teacher_id, sex, age, role, training per SOFT response (n = 53)
 Processing and analysis/
   Command files/
     DP - EP - School of Thinkers.ipynb           data preparation (R): cleaning, recoding, dyads -> ep.rds
